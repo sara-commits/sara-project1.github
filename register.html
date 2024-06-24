@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<style>
+    .container-fluid{
+      background-color:white;
+      }
+    .space{
+        height: 15vh;
+        width: 100%;
+         background-color:white;
+    }
+    .dropdown-item:hover{
+      background-color: #DC1559;
+    }
+    .h4{
+
+        text-align: center;
+    }
+    .form1{
+    margin-left: 30%;
+    margin-right: 30%;
+    }
+    .form2{
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    .img1{
+        position: absolute;
+        height: 100px;
+        width: 20%;
+        animation-name:mp;
+        animation-duration: 50s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes mp{
+        0%{
+            margin-left: 0%;
+        }
+        100%{
+            margin-left: 100%;
+        }
+    }
+    a{
+      color: white;
+    }
+    .btn{
+        background-color: #DC1559; 
+        color: white;
+    }
+    .footer{
+        height: 55vh;
+        width: 100%;
+        margin-top: 5%;
+        background-image: url(./Footer_bg.webp);   
+        background-position: 100%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    
+
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .logo{
+        height: 120px;
+        margin-left: 47%;
+        margin-top: 3%;
+    }
+    .nav-link1{
+        color:white;
+        font-size: 20px;
+    }
+    .nav-link1:hover{
+        color:#DC1559;
+        cursor: pointer;
+    }
+    
+</style>
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="./slogo2-removebg-preview.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      Aura La luna
+    </a>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              Women
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./facials.html">Faicials</a>
+              <a class="dropdown-item" href="./fhairtherapy.html">Hair Therapy</a>
+              <a class="dropdown-item" href="./womhair.html">Hair styling</a>
+              <a class="dropdown-item" href="./makeover.html">Make-over</a>
+              <a class="dropdown-item" href="./meni.html">Meni/Pedi</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              Men
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./beardg.html">Beard Grooming</a>
+              <a class="dropdown-item" href="./menhair.html">Hair styling</a>
+              <a class="dropdown-item" href="./menfacials.html">Men facials</a>
+            </div>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./bookings.html">Bookings</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./register.html">Register</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn my-2 my-sm-0" type="submit">Search</button>
+      </form>
+  </nav>   
+ 
+
+    <div class="space">
+    <img class="img1" src="./mp2-removebg-preview.png" alt="">
+   </div>
+
+    <div class="container-fluid">
+      <img src="./" alt="">
+    <form class="form1">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Password</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputAddress">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">State</label>
+            <select id="inputState" class="form-control">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">register</button>
+      </form><br>
+      <div class="h4">
+      <h5>Already have an account?</h5>
+      <h5>Then Log in</h5></div><br><br>
+      <form class="form2">
+        <div class="form-group row">
+          <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword">
+          </div>
+        </div>
+        <button  type="submit" class="btn btn-primary">Log-in</button>
+      </form></div>
+      <div class="footer">
+        <img class="logo" src="./slogo2-removebg-preview.png" alt="">
+        <h3 style="color: white;" class="ml-4">Aura</h3>
+        <ul class="nav flex-column ml-4">
+            <li class="nav-item">
+              <a class="nav-link1" href="./contact.html">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link1" href="#">Privacy Policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link1" href="#">Quality Policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link1">Terms & Conditions</a>
+            </li>
+            
+          </ul>
+          <h3 style="margin-left: 80%;margin-top: -14%;color: white;">Stay conected</h3>
+          <a style="margin-left: 85%;" href="https://www.instagram.com/"><img src="./insts_new.webp" alt=""></a><br><br>
+          <a style="margin-left: 85%;" href="https://www.facebook.com/"><img src="./facebook_new_icon.webp" alt=""></a><br><br>
+          <a style="margin-left: 85%;" href="https://www.twitter.com/"><img src="./twitter_icon_new.webp" alt=""></a><br><br>
+          <p style="font-size: 20px; margin-left: 40%;margin-top: -11%;color: white;">&#9742;&nbsp;&nbsp;+9203096900816</p>
+          <p style="font-size: 20px; margin-left: 40%;color: white;">&#128231;&nbsp;&nbsp;customercare@aura.com</p>
+          <p style="font-size: 20px; margin-left: 40%;color: white;">&#9962;&nbsp;&nbsp;Q Block, Phase 2, DHA, Lahore.</p>
+            
+        </div>
+        <p style="text-align: center;font-size: 18px;">Copyrights 2024 - Aura Technologies Private Limited</p>
+        
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+
+</html>

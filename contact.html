@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<style>
+    .h1{
+        text-align: center;
+        color: #DC1559;
+        margin-top: 10%;
+    }
+    .p{
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 20px;
+    }
+    .dropdown-item:hover{
+      background-color: #DC1559;
+    }
+    .box1{
+        height:90vh;
+        width: 40%;
+        position: absolute;
+        top: 50%;
+        left: 8%;
+        border-color: grey;
+    }
+    .box2{
+        height:90vh;
+        width: 40%;
+        position: absolute;
+        top: 50%;
+        right: 8%;
+        box-shadow: 5px 5px 5px 5px grey;
+    }
+    .btn{
+        background-color: #DC1559; 
+        color: white;
+    }
+    .footer{
+        height: 55vh;
+        width: 100%;
+        margin-top: 60%;
+        background-image: url(./Footer_bg.webp);   
+        background-position: 100%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+
+    }
+    .logo{
+        height: 120px;
+        margin-left: 47%;
+        margin-top: 3%;
+    }
+    a{
+        color: white;
+    }
+    .nav-link1{
+        color: white;
+        font-size: 20px;
+    }
+    .nav-link1:hover{
+        color: #DC1559;
+        cursor: pointer;
+    }
+    .img1{
+        position: absolute;
+        height: 100px;
+        width: 20%;
+        top: 10%;
+        animation-name:mp;
+        animation-duration: 50s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes mp{
+        0%{
+            margin-left: 0%;
+        }
+        100%{
+            margin-left: 100%;
+        }
+    }
+    body{
+        overflow-x: hidden;
+    }
+
+</style>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+          <img src="./slogo2-removebg-preview.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          Aura La luna
+        </a>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                  Women
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="./facials.html">Faicials</a>
+                  <a class="dropdown-item" href="./fhairtherapy.html">Hair Therapy</a>
+                  <a class="dropdown-item" href="womhair.html">Hair styling</a>
+                  <a class="dropdown-item" href="./makeover.html">Make-over</a>
+                  <a class="dropdown-item" href="./meni.html">Meni/Pedi</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                  Men
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="./beardg.html">Beard Grooming</a>
+                  <a class="dropdown-item" href="./menhair.html">Hair styling</a>
+                  <a class="dropdown-item" href="./menfacials.html">Men facials</a>
+                </div>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./bookings.html">Bookings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./register.html">Register</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn  my-2 my-sm-0" type="submit">Search</button>
+          </form>
+      </nav>   
+     
+   <div class="container-fluid">
+    <img class="img1" src="./mp2-removebg-preview.png" alt="">
+    <h1 class="h1">Contact us!</h1>
+    <p class="p"> Have questions? Please send our friendly support team a message via our handy contact form. Your feedback helps us continue to work better for you. You may use any of the other methods of your choice to reach to us.</p>
+    <div class="box1">
+        <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Full Name</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" >
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Nature Of Issue</label>
+              <select class="form-control"id="exampleFormControlSelect1">
+                <option>Select One</option>
+                <option>Bug Report</option>
+                <option>Suggestion</option>
+                <option>Complaint</option>
+                <option>Feature Request</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Subject</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" >
+              </div>
+             
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">How would you like to be contacted?</label>
+                <select class="form-control"id="exampleFormControlSelect1">
+                  <option>Select one</option>
+                  <option>E-mail</option>
+                  <option>WhatsApp</option>
+                  <option>Phone</option>
+                </select>
+              </div>
+              <p>All feilds are mendatory!</p>
+              <button class="btn" type="submit" class="btn btn-primary">Send</button>
+             
+          </form>
+    </div>
+    <div class="box2">
+        <p style="font-size: 20px;">&#9742;&nbsp;&nbsp;+9203096900816</p>
+        <p style="font-size: 20px;">&#128231;&nbsp;&nbsp;customercare@aura.com</p>
+        <p style="font-size: 20px;">&#9962;&nbsp;&nbsp;Q Block, Phase 2, DHA, Lahore.</p>
+        <iframe style="width:100% ;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7050398.573097836!2d68.9966984!3d30.36295725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38db52d2f8fd751f%3A0x46b7a1f7e614925c!2sPakistan!5e0!3m2!1sen!2s!4v1718510689315!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div></div>
+    <div class="footer">
+    <img class="logo" src="./slogo2-removebg-preview.png" alt="">
+    <h3 style="color: white;" class="ml-4">Aura</h3>
+    <ul class="nav flex-column ml-4">
+        <li class="nav-item">
+          <a class="nav-link1" href="./contact.html">Contact us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link1" href="#">Privacy Policy</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link1" href="#">Quality Policy</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link1">Terms & Conditions</a>
+        </li>
+        
+      </ul>
+      <h3 style="margin-left: 80%;margin-top: -13%;color: white;">Stay conected</h3>
+      <a style="margin-left: 85%;" href="https://www.instagram.com/"><img src="./insts_new.webp" alt=""></a><br><br>
+      <a style="margin-left: 85%;" href="https://www.facebook.com/"><img src="./facebook_new_icon.webp" alt=""></a><br><br>
+      <a style="margin-left: 85%;" href="https://www.twitter.com/"><img src="./twitter_icon_new.webp" alt=""></a><br><br>
+      <p style="font-size: 20px; margin-left: 40%;margin-top: -12%;color: white;">&#9742;&nbsp;&nbsp;+9203096900816</p>
+      <p style="font-size: 20px; margin-left: 40%;color: white;">&#128231;&nbsp;&nbsp;customercare@aura.com</p>
+      <p style="font-size: 20px; margin-left: 40%;color: white;">&#9962;&nbsp;&nbsp;Q Block, Phase 2, DHA, Lahore.</p>
+        
+    </div>
+    <p style="text-align: center;font-size: 18px;">Copyrights 2024 - Aura Technologies Private Limited</p>
+    
+
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+
+
+</html>

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<style>
+a{
+    color: white;
+}
+.ml-4{
+  color: white;
+}
+.btn{
+        background-color:#DC1559; 
+        margin-left: 34%;
+    }
+    .btn1{
+        background-color:#DC1559; 
+        color: white;
+    }
+.dropdown-item:hover{
+  background-color:#DC1559 ;
+}
+.h1{
+        text-align: center;
+        color:#DC1559;
+        margin-top: 3.5%;
+        font-size: 70px;
+
+}
+.card-title{
+    color:#DC1559 ;
+    text-align: center;
+}
+.card-text{
+  text-align: center;
+}
+.man1{
+    position: absolute;
+    left: 42%;
+    top: 13%;
+}
+.img13{
+    position: absolute;
+    left: 44%;
+    top: 13.5%;
+    animation-name:c1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    }
+    @keyframes c1{
+        0%{
+            margin-top: 0%;
+            margin-bottom: 1%;
+        }
+        100%{
+            margin-top: 1%;
+            margin-bottom: 0%;
+        }
+}
+.box1{
+    position: absolute;
+    height: 70vh;
+    left: 4%;
+    width: 30%;
+    }
+    .box2{
+    position: absolute;
+    height: 70vh;
+    width: 30%;
+    left: 35.5%;
+    }
+    .box3{
+    position: absolute;
+    height: 70vh;
+    width: 30%;
+    left: 67%;
+    }
+   .box4{
+    position: absolute;
+    left: 4%;
+    height: 70vh;
+    top: 145%;
+    width: 30%;
+    }
+    .box5{
+    position: absolute;
+    height: 70vh;
+    width: 30%;
+    left: 35.5%;
+    top: 145%;
+
+    }
+
+    .box6{
+    position: absolute;
+    height: 70vh;
+    width: 30%;
+    left: 67%;
+    top: 145%;
+
+    }
+    
+    .box8{
+    position: absolute;
+    height: 70vh;
+    width: 30%;
+    left: 4%;
+    top: 230%;
+
+    }
+
+    .box9{
+    position: absolute;
+    height: 70vh;
+    width: 30%;
+    left: 35.5%;
+    top: 230%;
+   }
+   .pagination{
+    position: absolute;
+    top: 313%;
+    left: 45%;
+   }
+   .page-link:hover{
+    background-color:#DC1559 ;
+   }
+   .footer{
+        height: 55vh;
+        width: 100%;
+        margin-top: 150%;     
+        background-image: url(./Footer_bg.webp);   
+        background-position: 100%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .logo{
+        height: 120px;
+        margin-left: 45%;
+        margin-top: 3%;
+        color: white;
+    }
+    .nav-link1{
+        color:white;
+        font-size: 20px;
+    }
+    .nav-link1:hover{
+        color:purple;
+        cursor: pointer;
+    }
+
+
+</style>
+<body>
+    <nav class="navbar fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+          <img src="./slogo2-removebg-preview.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          Aura La luna
+        </a>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                  Women
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="./facials.html">Faicials</a>
+                  <a class="dropdown-item" href="./fhairtherapy.html">Hair Therapy</a>
+                  <a class="dropdown-item" href="./womhair.html">Hair styling</a>
+                  <a class="dropdown-item" href="./makeover.html">Make-over</a>
+                  <a class="dropdown-item" href="./meni.html">Meni/Pedi</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                  Men
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="./beardg.html">Beard Grooming</a>
+                  <a class="dropdown-item" href="./menhair.html">Hair styling</a>
+                  <a class="dropdown-item" href="./menfacials.html">Men facials</a>
+                </div>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./bookings.html">Bookings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="./register.html">Register</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn1  my-2 my-sm-0" type="submit">Search</button>
+          </form>
+      </nav>   
+    
+    
+<h1 class="h1">Facials</h1>
+<img class="man1" src="./man1-removebg-preview.png" alt="">
+<img class="img13" src="./cream-removebg-preview.png" alt="">
+<hr style="height: 0.5px;background-color:black;margin-top: 18%;margin-left: 6%;margin-right: 6%;">
+<div class="container-fluid">
+    <div data-aos="fade-up" class="box1"><div class="card" style="width: 23rem;">
+      <img style="height: 35vh;" src="data:image/jpeg;base64,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" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Deep-Cleansing Facial</h5>
+          <p class="card-text">A traditional facial that includes cleansing, exfoliating, extractions and moisturizing. Ideal for maintaining healthy skin and adressing issues like acne <br><span style="color: black;font-weight: bolder;">price  1500rs</span> </p>
+          <a href="./bookings.html" class="btn btn-primary">Book Now!</a>
+        </div>
+      </div></div>
+    <div data-aos="fade-up" class="box2"><div class="card" style="width: 23rem;">
+      <img style="height: 35vh;" src="./mf5.jpeg" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Hydrating Facial</h5>
+          <p class="card-text">Focuses on replenishing moisture to dry, dehytrated skin. Uses specialized products to leave skin plump, moisturized and hydrated for weeks<br><span style="color: black;font-weight: bolder;">price  2000rs</span> </p>
+          <a href="./bookings.html" class="btn btn-primary">Book Now!</a>
+        </div>
+      </div></div>
+    <div data-aos="fade-up" class="box3"><div class="card" style="width: 23rem;">
+      <img style="height: 35vh;" src="./mf3.jpeg" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Anti-Aging Facial</h5>
+          <p class="card-text">Targets fine lines, wrinkles, and other signs of aging. Incorporates ingredients like retinol and peptides to boost collagen production <br> <br><span style="color: black;font-weight: bolder;"> price 3000rs</span></p>
+          <a href="./bookings.html" class="btn btn-primary">Book Now!</a>
+        </div>
+      </div></div>
+    <div data-aos="fade-up" class="box4"><div class="card" style="width: 23rem;">
+      <img src="./mf4.jpeg" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Brightening Facial</h5>
+          <p class="card-text">Reduces hyperpigmentation, evens skin tone, utilizes Vitamin-C to enhance skin radiance <br><span style="color: black;font-weight: bolder;">price  2500rs</span> </p>
+          <a href="./bookings.html" class="btn btn-primary">Book Now!</a>
+        </div>
+      </div></div>
+    <div data-aos="fade-up" class="box5"><div class="card" style="width: 23rem;">
+      <img style="height: 36vh;" src="./mf2.jpeg" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Acne Facial</h5>
+          <p class="card-text">Cleansing and anti-inflamatory treatments to reduce breakouts and calm irritated skin  <br><span style="color: black;font-weight: bolder;">price  1500rs</span></p>
+          <a href="./bookings.html" class="btn btn-primary">Book Now!</a>
+        </div>
+      </div></div>
+    <div data-aos="fade-up" class="box6"><div class="card" style="width: 23rem;">
+      <img style="height: 35vh" src="./mf6.jpeg" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Detox Facial</h5>
+          <p class="card-text">Purifies and rejuvenates the skin by removing toxins and impurities.deep-cleansing masks <br><span style="color: black;font-weight: bolder;">price  1800rs</span></p>
+          <a href="./bookings.html" class="btn btn-primary">Book Now!</a>
+        </div>
+      </div></div>
+    <div data-aos="fade-up" class="box8"><div class="card" style="width: 23rem;">
+        <img style="height:36vh ;" src="./mf7.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Microdermabrasion Facial</h5>
+          <p class="card-text">Exfoliates skin using a special device to remove dead skin cells. improves texture and tone.<br><span style="color: black;font-weight: bolder;">price  3000rs</p>
+          <a href="./bookings.html" class="btn btn-primary">Book Now!</a>
+        </div>
+      </div></div>
+    <div data-aos="fade-up" class="box9"><div class="card" style="width: 23rem;">
+      <img style="height: 36vh;" src="./mf8.jpeg" alt="">
+        <div class="card-body">
+          <h5 class="card-title">LED Facial</h5>
+          <p class="card-text">Uses varying wavelengths of light to address specific skin concerns. reduces acne and slows down aging. <br><span style="color: black;font-weight: bolder;">price  6000rs</p>
+          <a href="./bookings.html" class="btn btn-primary">Book Now!</a>
+        </div>
+      </div></div>
+       </div>
+       <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="./menhair.html" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="./beardg.html">1</a></li>
+          <li class="page-item"><a class="page-link" href="./menhair.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="./menfacials.html">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="./beardg.html" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+       <div class="footer">
+        <img class="logo" src="./slogo2-removebg-preview.png" alt="">
+        <h3 class="ml-4">Aura</h3>
+        <ul class="nav flex-column ml-4">
+            <li class="nav-item">
+              <a class="nav-link1" href="./contact.html">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link1" href="#">Privacy Policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link1" href="#">Quality Policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link1">Terms & Conditions</a>
+            </li>
+            
+          </ul>
+          <h3 style="margin-left: 80%;margin-top: -14%;color: white;">Stay conected</h3>
+          <a style="margin-left: 85%;" href="https://www.instagram.com/"><img src="./insts_new.webp" alt=""></a><br><br>
+          <a style="margin-left: 85%;" href="https://www.facebook.com/"><img src="./facebook_new_icon.webp" alt=""></a><br><br>
+          <a style="margin-left: 85%;" href="https://www.twitter.com/"><img src="./twitter_icon_new.webp" alt=""></a><br><br>
+          <p style="font-size: 20px; margin-left: 41%;margin-top: -11%;color: white;">&#9742;&nbsp;&nbsp;+9203096900816</p>
+          <p style="font-size: 20px; margin-left: 41%;color: white;">&#128231;&nbsp;&nbsp;customercare@aura.com</p>
+          <p style="font-size: 20px; margin-left: 41%;color: white;">&#9962;&nbsp;&nbsp;Q Block, Phase 2, DHA, Lahore.</p>
+            
+        </div>
+        <p style="text-align: center;font-size: 18px;">Copyrights 2024 - Aura Technologies Private Limited</p>
+     
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+
+</html>

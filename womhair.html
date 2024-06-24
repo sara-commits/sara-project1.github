@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<style>
+a{
+    color: white;
+}
+.ml-4{
+  color: white;
+}
+.btn{
+        background-color:#DC1559; 
+        margin-left: 34%;
+    }
+    .btn1{
+        background-color:#DC1559;
+        color: white; 
+    }
+.dropdown-item:hover{
+  background-color:#DC1559 ;
+}
+.h1{
+        text-align: center;
+        color:#DC1559;
+        margin-top: 5%;
+        font-size: 70px;
+
+}
+.card-title{
+    color:#DC1559 ;
+    text-align: center;
+}
+.card-text{
+  text-align: center;
+}
+.w1{
+    position: absolute;
+    height: 200px;
+    left:43%
+}
+.w2{
+    position: absolute;
+    left: 53%;
+    top: 30%;
+    height: 80px;
+    animation-name:w2;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    }
+    @keyframes w2{
+        0%{
+            rotate: 180deg;
+        }
+        100%{
+            rotate: 360deg;
+        }
+}
+.box1{
+    position: absolute;
+    height: 70vh;
+    left: 4%;
+    width: 30%;
+    }
+    .box2{
+    position: absolute;
+    height: 70vh;
+    width: 30%;
+    left: 35.5%;
+    }
+    .box3{
+    position: absolute;
+    height: 70vh;
+    width: 30%;
+    left: 67%;
+    }
+   .box4{
+    position: absolute;
+    left: 4%;
+    height: 70vh;
+    top: 140%;
+    width: 30%;
+    }
+    .box5{
+    position: absolute;
+    height: 70vh;
+    width: 30%;
+    left: 35.5%;
+    top: 140%;
+
+    }
+
+    .box6{
+    position: absolute;
+    height: 70vh;
+    width: 30%;
+    left: 67%;
+    top: 140%;
+
+    }
+    .pagination{
+    position: absolute;
+    top: 220%;
+    left: 42%;
+   }
+   .page-link:hover{
+    background-color:#DC1559;
+   }
+    
+   .footer{
+        height: 55vh;
+        width: 100%;
+        margin-top: 100%;     
+        background-image: url(./Footer_bg.webp);   
+        background-position: 100%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .logo{
+        height: 120px;
+        margin-left: 45%;
+        margin-top: 3%;
+        color: white;
+    }
+    .nav-link1{
+        color:white;
+        font-size: 20px;
+    }
+    .nav-link1:hover{
+        color:#DC1559;
+        cursor: pointer;
+    }
+
+
+</style>
+<body>
+    <nav class="navbar fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+          <img src="./slogo2-removebg-preview.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          Aura La luna
+        </a>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                  Women
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="./facials.html">Faicials</a>
+                  <a class="dropdown-item" href="./fhairtherapy.html">Hair Therapy</a>
+                  <a class="dropdown-item" href="./womhair.html">Hair styling</a>
+                  <a class="dropdown-item" href="./makeover.html">Make-over</a>
+                  <a class="dropdown-item" href="./meni.html">Meni/Pedi</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                  Men
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="./beardg.html">Beard Grooming</a>
+                  <a class="dropdown-item" href="./menhair.html">Hair styling</a>
+                  <a class="dropdown-item" href="./menfacials.html">Men facials</a>
+                </div>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./bookings.html">Bookings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="./register.html">Register</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn1  my-2 my-sm-0" type="submit">Search</button>
+          </form>
+      </nav>   
+    
+    
+<h1 class="h1">Hair Styling</h1>
+<img class="w1" src="./womh1-removebg-preview.png" alt="">
+<img class="w2" src="./sc2-removebg-preview.png" alt="">
+<hr style="height: 0.5px;background-color:black;margin-top: 18%;margin-left: 6%;margin-right: 6%;">
+<div class="container-fluid">
+    <div data-aos="fade-up" class="box1"><div class="card" style="width: 23rem;">
+        <img style="height: 40vh;" src="https://avatars.mds.yandex.net/i?id=083111d9dcf7006cf610b01c6347bdf4c2bef091-12714255-images-thumbs&n=13" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Layered Cut</h5>
+          <p class="card-text"> Adds volume with varying lengths, add texture to hair <br><span style="color: black;font-weight: bolder;">price  15000rs</span> </p>
+          <a href="./bookings.html" class="btn btn-primary">Book Now!</a>
+        </div>
+      </div></div>
+    <div data-aos="fade-up" class="box2"><div class="card" style="width: 23rem;">
+        <img style="height: 40vh;" src="https://avatars.mds.yandex.net/i?id=0272efa940a1b204e97bd00cd64b85c97bda04c5-8377431-images-thumbs&n=13" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Feather Cut</h5>
+          <p class="card-text">Adds volume with varying lengths, add texture to hair  <br><span style="color: black;font-weight: bolder;">price  20000rs</span> </p>
+          <a href="./bookings.html" class="btn btn-primary">Book Now!</a>
+        </div>
+      </div></div>
+    <div data-aos="fade-up" class="box3"><div class="card" style="width: 23rem;">
+        <img style="height: 40vh;" src="https://avatars.mds.yandex.net/i?id=9df52f9c1605f0feacca596da056d0f4efa4b875-9986976-images-thumbs&n=13" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Bob Cut</h5>
+          <p class="card-text">Short, chic, and versatile haircut that can be styled in multiple ways <br><span style="color: black;font-weight: bolder;"> price 3000rs</span></p>
+          <a href="./bookings.html" class="btn btn-primary">Book Now!</a>
+        </div>
+      </div></div>
+    <div data-aos="fade-up" class="box4"><div class="card" style="width: 23rem;">
+        <img style="height: 40vh;" src="https://avatars.mds.yandex.net/i?id=7145bfbd684689120b79db71491110a1c64354ca-10414206-images-thumbs&n=13" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Beach Waves</h5>
+          <p class="card-text">Loose, wavy hairstyle that looks effortlessly stylish <br><span style="color: black;font-weight: bolder;">price  2500rs</span> </p>
+          <a href="./bookings.html" class="btn btn-primary">Book Now!</a>
+        </div>
+      </div></div>
+    <div data-aos="fade-up" class="box5"><div class="card" style="width: 23rem;">
+        <img style="height: 40vh;" src="https://avatars.mds.yandex.net/i?id=0644ba6326176b170ee6f71ea3e0af549a014f48-10812270-images-thumbs&n=13" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Braided Hairstyles</h5>
+          <p class="card-text">Includes varioud techniques like french, dutch, and fishtail braids<br><span style="color: black;font-weight: bolder;">price  1500rs</span></p>
+          <a href="./bookings.html" class="btn btn-primary">Book Now!</a>
+        </div>
+      </div></div>
+    <div data-aos="fade-up" class="box6"><div class="card" style="width: 23rem;">
+        <img style="height: 40vh;" src="https://avatars.mds.yandex.net/i?id=dfb05cf04a74bec3a8603069850bebfb6a417871-5257022-images-thumbs&n=13" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Updo</h5>
+          <p class="card-text">Elegent, pinned-up style perfect for formal occasions.<br><span style="color: black;font-weight: bolder;">price  1800rs</span></p>
+          <a href="./bookings.html" class="btn btn-primary">Book Now!</a>
+        </div>
+      </div></div>
+       </div>
+       <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="./fhairtherapy.html" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="./facials.html">1</a></li>
+          <li class="page-item"><a class="page-link" href="./fhairtherapy.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="./womhair.html">3</a></li>
+          <li class="page-item"><a class="page-link" href="./makeover.html">4</a></li>
+          <li class="page-item"><a class="page-link" href="./meni.html">5</a></li>
+          <li class="page-item">
+            <a class="page-link" href="./makeover.html" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      
+       <div class="footer">
+        <img class="logo" src="./slogo2-removebg-preview.png" alt="">
+        <h3 class="ml-4">Aura</h3>
+        <ul class="nav flex-column ml-4">
+            <li class="nav-item">
+              <a class="nav-link1" href="./contact.html">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link1" href="#">Privacy Policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link1" href="#">Quality Policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link1">Terms & Conditions</a>
+            </li>
+            
+          </ul>
+          <h3 style="margin-left: 80%;margin-top: -14%;color: white;">Stay conected</h3>
+          <a style="margin-left: 85%;" href="https://www.instagram.com/"><img src="./insts_new.webp" alt=""></a><br><br>
+          <a style="margin-left: 85%;" href="https://www.facebook.com/"><img src="./facebook_new_icon.webp" alt=""></a><br><br>
+          <a style="margin-left: 85%;" href="https://www.twitter.com/"><img src="./twitter_icon_new.webp" alt=""></a><br><br>
+          <p style="font-size: 20px; margin-left: 41%;margin-top: -10%;color: white;">&#9742;&nbsp;&nbsp;+9203096900816</p>
+          <p style="font-size: 20px; margin-left: 41%;color: white;">&#128231;&nbsp;&nbsp;customercare@aura.com</p>
+          <p style="font-size: 20px; margin-left: 41%;color: white;">&#9962;&nbsp;&nbsp;Q Block, Phase 2, DHA, Lahore.</p>
+            
+        </div>
+        <p style="text-align: center;font-size: 18px;">Copyrights 2024 - Aura Technologies Private Limited</p>
+     
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+
+</html>
